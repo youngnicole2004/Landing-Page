@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.recreation-section {
+    display: flex;
+}
+
+.recreation-section-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.wildlife-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cards {
+    display: flex;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.terrorist-warning-section {
+    display: flex;
+}
+
+.warning-left {
+    display: flex;
+    flex-direction: column;
+}
