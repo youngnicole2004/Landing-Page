@@ -3,6 +3,11 @@ body {
     flex-direction: column;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 .header {
     display: flex;
 }
@@ -14,21 +19,35 @@ ul {
 
 .recreation-section {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .recreation-section-text {
     display: flex;
     flex-direction: column;
+    max-width: 45vw;
+}
+
+.recreation__img {
+    width: 500px; 
+    max-width: 50vw;
+    min-width: 280px; 
 }
 
 .wildlife-section {
     display: flex;
     flex-direction: column;
-
 }
 
 .cards {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    max-width: 250px;
+    width:20vw;
+    min-width: 130px; 
 }
 
 .quote-section {
@@ -38,6 +57,7 @@ ul {
 
 .terrorist-warning-section {
     display: flex;
+    max-width: 500px;
 }
 
 .warning-left {
