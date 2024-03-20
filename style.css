@@ -10,6 +10,32 @@ img {
 
 .header {
     display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.header__logo {
+    padding-left: 1em;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header__links {
+    justify-content: right;
+    
+}
+
+.header__link {
+    padding-right: 1.5em;
+    color: #E5E7Eb !important;
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: lighter;
 }
 
 ul {
